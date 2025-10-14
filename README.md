@@ -7,6 +7,8 @@
 ![MongoDB](https://img.shields.io/badge/MongoDB-6.20-green?style=for-the-badge&logo=mongodb)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?style=for-the-badge&logo=typescript)
 
+<img src="https://oabk6vpcyt3tfpux.public.blob.vercel-storage.com/todomern.webp" />
+
 > A modern, full-stack todo application demonstrating CRUD operations, RESTful API design, and responsive UI development.
 
 ## 🎯 Overview
