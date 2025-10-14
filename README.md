@@ -1,32 +1,54 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+---
 
-## Getting Started
+# ✅ Todo App - Professional MERN Stack Task Manager
 
-First, run the development server:
+![Next.js](https://img.shields.io/badge/Next.js-15.5-black?style=for-the-badge&logo=next.js)
+![React](https://img.shields.io/badge/React-19.1-blue?style=for-the-badge&logo=react)
+![MongoDB](https://img.shields.io/badge/MongoDB-6.20-green?style=for-the-badge&logo=mongodb)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?style=for-the-badge&logo=typescript)
 
-```bash
+> A modern, full-stack todo application demonstrating CRUD operations, RESTful API design, and responsive UI development.
 
-pnpm run dev
+## 🎯 Overview
 
-```
+A production-ready todo management system built with the MERN stack (MongoDB, Express via Next.js API Routes, React, Node.js). Features real-time updates, optimistic UI, and a clean, intuitive interface.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**Live Demo**: [Your Demo URL]
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## ✨ Key Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 📋 Core Functionality
+- **Create Todos**: Add tasks with title and description
+- **Read Todos**: View all tasks in organized layout
+- **Update Todos**: Mark tasks as complete/incomplete
+- **Delete Todos**: Remove completed or unwanted tasks
+- **Real-time Updates**: Instant UI feedback with optimistic updates
+- **Data Persistence**: MongoDB cloud storage
 
-## Learn More
+### 🎨 User Experience
+- **Responsive Design**: Works seamlessly on all devices
+- **Loading States**: Visual feedback for all operations
+- **Error Handling**: User-friendly error messages
+- **Empty States**: Helpful prompts when no todos exist
+- **Smooth Animations**: Transitions for better UX
+- **Keyboard Accessible**: Full keyboard navigation support
 
-To learn more about Next.js, take a look at the following resources:
+### 🏗️ Technical Features
+- **RESTful API**: Clean, semantic API design
+- **Type Safety**: Full TypeScript implementation
+- **Server-Side Rendering**: Fast initial page loads
+- **Client-Side Rendering**: Interactive UI updates
+- **Database Abstraction**: Mongoose ODM with TypeScript
+- **Error Boundaries**: Graceful error handling
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🛠️ Tech Stack
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Frontend
+```json
+{
+  "framework": "Next.js 15.5 (App Router)",
+  "ui-library": "React 19.1",
+  "language": "TypeScript 5.0",
+  "styling": "Tailwind CSS 4.0",
+  "icons": "Lucide React"
+}
